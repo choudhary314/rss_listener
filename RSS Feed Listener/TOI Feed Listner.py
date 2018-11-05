@@ -3,7 +3,7 @@ import time
 import sys
 from subprocess import check_output
 
-feed_name = 'TRIBUNE'
+feed_name = 'Nasa'
 url = 'https://www.nasa.gov/rss/dyn/breaking_news.rss'
 
 
