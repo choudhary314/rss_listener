@@ -23,7 +23,7 @@ def post_is_in_db(title):
                 return True
     return False
 
-# return true if the title is in the database with a timestamp > limit
+# Return true if the title is in the database with a timestamp > limit
 def post_is_in_db_with_old_timestamp(title):
     with open(db, 'r') as database:
         for line in database:
@@ -34,9 +34,9 @@ def post_is_in_db_with_old_timestamp(title):
                     return True
     return False
 
-#
+
 # get the feed data from the url
-#
+# Adding a new comment
 feed = feedparser.parse(url)
 
 #
