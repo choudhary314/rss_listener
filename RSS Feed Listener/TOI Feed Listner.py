@@ -36,7 +36,7 @@ def post_is_in_db_with_old_timestamp(title):
 
 
 # get the feed data from the url
-# Adding a new comment
+# Removing a comment
 feed = feedparser.parse(url)
 
 #
